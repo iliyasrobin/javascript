@@ -20,3 +20,55 @@ const dad = "Younus ali";
 // const dad = "Younus ali"; //error re declaring
 // dad = "Md"; //error updating
 
+
+//Data Type Check
+console.log(typeof dad);
+console.log(typeof name);
+console.log(typeof age);
+
+//Data Type
+let a = 12;
+let b = "Iliyas";
+let c = 344.33;
+let d = true;
+let e = null;
+let f; //undefined
+let g = BigInt("123");
+let h = Symbol("Hello!")
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof f);
+console.log(typeof g);
+console.log(typeof h);
+
+
+// Declaring Object
+const student = {
+    fullName: "John",
+    age: 25,
+    cgpa: 3.6,
+    isStudying : true
+};
+
+console.log(typeof student);
+
+//accessing object
+
+// method 1: obj.key
+//method 2: obj["key"] or obj['key']
+
+console.log(student.fullName);
+console.log(student['isStudying']);
+
+//updating object values
+
+student['isStudying'] = false;
+student['age'] = 30;
+console.log(student['age']);
+
+//const er object update kora jai
+
+
+
