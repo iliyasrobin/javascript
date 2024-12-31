@@ -1,2 +1,2 @@
-//printing first code of JavaScriptT
+//printing first code of JavaScript
 console.log("hello JavaScript");
