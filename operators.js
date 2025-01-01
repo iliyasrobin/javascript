@@ -23,3 +23,23 @@ console.log("Increment: ", c++);
 
 //decrement
 console.log("decrement: ", c--);
+
+let x = 5
+//post increment
+console.log("x++ : ",x++); //5
+//here value will be changed after the line
+console.log("x: ",x); //6
+
+let x2 = 7;
+console.log("x2-- = ",x2--); //7
+console.log("x2 = ",x2); //6
+
+//pre decrement
+let y = 5;
+console.log("--y : ",--y); //4
+// here value will be changed first
+console.log("y: ",y); //4
+
+let y2 = 7;
+console.log("++y2 = ",++y2); //8
+console.log("y2 = ",y2); //8
