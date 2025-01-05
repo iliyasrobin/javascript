@@ -76,3 +76,21 @@ const arrowSum = (a, b) => {
 
 let arrowResult = arrowSum(10, 20);
 console.log(arrowResult);
+
+//without parameter
+const hello = () => {
+  console.log("Hello from arrow function");
+};
+
+//functions can be send as a parameter to another function.
+//this type of functions are called callback functions.
+
+//example
+//callback function
+function callbackFunction() {
+  console.log("Hello from callback function");
+}
+
+function mainFunction(callbackFunction) {
+  return callbackFunction;
+}
