@@ -24,3 +24,12 @@
 3. innerHTML -> returns the plain text or HTML contents in the element
 4. textContent -> returns textual content even for hidden elements.
 */
+
+//Attributes
+
+//getAttribute("attr"); //to get the attribute value
+//setAttribute("attr", "newValue"); // to set the attribute value
+
+//Style
+//node.style
+//ex: div.style.fontSize: "22px";
