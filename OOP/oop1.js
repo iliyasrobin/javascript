@@ -13,7 +13,12 @@ const employee = {
 
 const karanArjun = {
   salary: 50000,
+  calcTax1: function () {
+    console.log("tax is 30%");
+  },
+  //now this function will be executed instead of prototype
 };
 
 //connecting prototype
 karanArjun.__proto__ = employee;
+//now karanArjun will have calcTax1 and calcTax1 functions.
