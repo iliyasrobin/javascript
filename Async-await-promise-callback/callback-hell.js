@@ -21,8 +21,9 @@ for (let i = 0; i < 5; i++) {
 }
 
 //callback nesting
-//callback hell
 
+
+//callback hell
 function getData(dataId, getNextData) {
   setTimeout(() => {
     console.log("data ", dataId);
@@ -31,7 +32,14 @@ function getData(dataId, getNextData) {
     }
   }, 2000);
 }
-
+//nested callbacks or callback hell
 getData(1, () => {
-  getData(2);
+  console.log("getting data 2");
+  getData(2, () => {
+    console.log("getting data 3");
+    getData(3, () => {
+      console.log("getting data 4");
+      getData(4);
+    });
+  });
 });
